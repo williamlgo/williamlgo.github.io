@@ -49,6 +49,7 @@ nav .logo a {
   color: var(--primary-color-dark);
   transition: 0.3s;
 }
+
 nav .logo a:hover {
   color: var(--primary-color-dark);
 }
@@ -60,6 +61,7 @@ nav .checkbox {
 nav input {
   display: none;
 }
+
 nav .checkbox i {
   font-size: 2rem;
   color: var(--primary-color);
@@ -282,6 +284,5 @@ ul li a:hover {
 
   .action__btns {
     margin: auto;
-  }
-  
+  } 
 }
