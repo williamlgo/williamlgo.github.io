@@ -181,6 +181,7 @@ ul li a:hover {
     border-radius: 10px;
     transition: 0.3s;
     cursor: pointer;
+    text-align: center;
 }
 
 .github {
