@@ -38,6 +38,7 @@ nav {
   margin: auto;
   padding: 1.5rem 1rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -102,10 +103,26 @@ ul li a:hover {
   gap: 4rem;
 }
 
+.section__container__noPic {
+    margin: auto;
+    padding: 1rem;
+    padding-top: 125px;
+    display: flex;
+    gap: 4rem;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    height: auto; 
+    overflow: auto;
+    text-align: left; 
+  }
+
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: auto; 
+  overflow: auto;
 }
 
 .subtitle {
@@ -154,6 +171,7 @@ ul li a:hover {
     display: inline-flex; 
     align-items: center; 
     justify-content: center; 
+    width: 200px;
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 2px;
@@ -212,7 +230,21 @@ ul li a:hover {
   border-radius: 100%;
 }
 
-@media (width < 750px) {
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.resume-container iframe {
+    width: 100vw; /* Adjust width as needed */
+    height: 90vh;
+    border: none;
+}
+
+@media (max-width: 750px) {
   nav .checkbox {
     display: block;
   }
@@ -250,4 +282,5 @@ ul li a:hover {
   .action__btns {
     margin: auto;
   }
+  
 }
