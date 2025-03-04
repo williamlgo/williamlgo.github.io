@@ -6,7 +6,7 @@
   --secondary-color: #589969;
   --text-dark: #1E1E24;
   --text-light: #6b7280;
-  --extra-light: #faf5ff;
+  --extra-light: #f9fdf9;
   --max-width: 1200px;
 }
 
@@ -45,7 +45,7 @@ nav {
 nav .logo a {
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--primary-color);
+  color: var(--primary-color-dark);
   transition: 0.3s;
 }
 nav .logo a:hover {
@@ -78,7 +78,7 @@ ul li a {
   border: 2px solid transparent;
   text-decoration: none;
   font-weight: 600;
-  color: var(--text-dark);
+  color: var(--primary-color-dark);
   transition: 0.3s;
 }
 
