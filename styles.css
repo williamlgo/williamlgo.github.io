@@ -150,6 +150,21 @@ ul li a:hover {
   cursor: pointer;
 }
 
+.action__btns a {
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 .github {
   background-color: var(--primary-color);
   color: #ffffff;
