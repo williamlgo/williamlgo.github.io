@@ -168,6 +168,25 @@ ul li a:hover {
   background-color: var(--primary-color-dark);
 }
 
+.downloadResume {
+  background-color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+}
+  
+.downloadResume:hover {
+    background-color: var(--primary-color-dark);
+}
+
 .image {
   display: grid;
   place-items: center;
