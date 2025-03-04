@@ -150,22 +150,22 @@ ul li a:hover {
   cursor: pointer;
 }
 
-.hire__me {
+.github {
   background-color: var(--primary-color);
   color: #ffffff;
 }
 
-.hire__me:hover {
+.github:hover {
   background-color: var(--primary-color-dark);
 }
 
-.portfolio {
-  color: var(--primary-color);
+.linkedin {
+    background-color: var(--primary-color);
+    color: #ffffff;
 }
 
-.portfolio:hover {
+.linkedin:hover {
   background-color: var(--primary-color-dark);
-  color: #ffffff;
 }
 
 .image {
