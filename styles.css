@@ -93,7 +93,6 @@ ul li a:hover {
 
 .section {
   background-color: var(--extra-light);
-  padding-top: 6rem;
 }
 
 .section__container {
@@ -101,6 +100,7 @@ ul li a:hover {
   max-width: var(--max-width);
   margin: auto;
   padding: 1rem;
+  padding-top: 6rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem;
@@ -111,6 +111,7 @@ ul li a:hover {
 .section__container__noPic {
     margin: auto;
     padding: 1rem;
+    padding-top: 6rem;
     /* padding-top: 125px; */
     display: flex;
     gap: 4rem;
