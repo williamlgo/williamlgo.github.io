@@ -178,7 +178,8 @@ ul li a:hover {
     display: inline-flex; 
     align-items: center; 
     justify-content: center; 
-    width: 200px;
+    /* width: 200px; */
+    width: 100%;
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 2px;
@@ -207,6 +208,15 @@ ul li a:hover {
 
 .linkedin:hover {
   background-color: var(--primary-color-dark);
+}
+
+.portfolio {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.portfolio:hover {
+background-color: var(--primary-color-dark);
 }
 
 .downloadResume {
