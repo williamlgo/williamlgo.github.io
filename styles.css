@@ -100,10 +100,10 @@ ul li a:hover {
   max-width: var(--max-width);
   margin: auto;
   padding: 1rem;
-  padding-top: 6rem;
+  padding-top: 5.5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 4rem;
+  gap: 1rem;
   height: auto; 
   overflow: auto;
 }
@@ -129,6 +129,7 @@ ul li a:hover {
   justify-content: center;
   height: auto; 
   overflow: auto;
+  margin-bottom: 0;
 }
 
 .subtitle {
@@ -153,7 +154,7 @@ ul li a:hover {
 .description {
   line-height: 1.5rem;
   color: var(--text-light);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .action__btns {
@@ -230,11 +231,17 @@ ul li a:hover {
 .image {
   display: grid;
   place-items: center;
+  margin-bottom: 0;
 }
 
 .image img {
   width: min(25rem, 90%);
   border-radius: 100%;
+}
+
+.image .small-image{
+  width: 250px;
+  height: auto;
 }
 
 .resume-container {
@@ -284,6 +291,7 @@ ul li a:hover {
 
   .image {
     grid-area: 1/1/2/2;
+    margin-bottom: 0;
   }
 
   .action__btns {
