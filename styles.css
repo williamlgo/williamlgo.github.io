@@ -263,7 +263,7 @@ background-color: var(--primary-color-dark);
 }
 
 .resume-container iframe {
-    width: 100vw; /* Adjust width as needed */
+    width: 100vw; 
     height: 90vh;
     border: none;
 }
@@ -418,7 +418,7 @@ ol, li {
   flex: 0 0 100%;
   width: 100%;
   height: 100%;
-  background-color: #f99;
+  /* background-color: #f99; */
   counter-increment: item;
   scroll-snap-align: center;
   display: flex;
@@ -428,18 +428,18 @@ ol, li {
 }
 
 .carousel__slide img {
-  max-width: 100%; /* Ensure the image is responsive */
-  height: 100%; /* Keep aspect ratio intact */
-  object-fit: cover; /* Ensure image stays within its bounds */
-  border-radius: 10px; /* Optional: add border radius for style */
+  max-width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  border-radius: 10px; 
 }
 
-.carousel__slide:nth-child(even) {
+/* .carousel__slide:nth-child(even) {
   background-color: #99f;
-}
+} */
 
 /* REMOVE THIS ONCE YOU HAVE ALL OF THE IMAGES THIS IS THE 1 2 3 4 THAT APPEARS ON TOP OF THE IMAGES */
-.carousel__slide:before {
+/* .carousel__slide:before {
   content: counter(item);
   position: absolute;
   top: 50%;
@@ -447,7 +447,7 @@ ol, li {
   transform: translate3d(-50%,-40%,70px);
   color: #fff;
   font-size: 2em;
-}
+} */
 
 .carousel__snapper {
   position: absolute;
