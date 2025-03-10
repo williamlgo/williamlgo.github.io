@@ -219,6 +219,69 @@ ul li a:hover {
 background-color: var(--primary-color-dark);
 }
 
+.PennywiseGithub {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.PennywiseGithub:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.VisionAssistanceGithub {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.VisionAssistanceGithub:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.WoolyYarnGoGithub {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.WoolyYarnGoGithub:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.WebsiteGithub {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.WebsiteGithub:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.pennywise {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.pennywise:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.PennywiseDocs {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.PennywiseDocs:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.VAPresentation {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.VAPresentation:hover {
+  background-color: var(--primary-color-dark);
+}
+
 .downloadResume {
   background-color: var(--primary-color);
   font-size: 1rem;
