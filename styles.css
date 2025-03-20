@@ -559,7 +559,7 @@ ol, li {
 .carousel::after {
   content: '';
   z-index: 1;
-  background-color: var(--primary-color-dark);
+  background-color: var(--primary-color);
   background-size: 1.5rem 1.5rem;
   background-repeat: no-repeat;
   background-position: center center;
